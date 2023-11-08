@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 def square_matrix_simple(matrix=[]):
-    '''
+   """
         A function that returns the square value of all elements in a
         multi dimensional list been passed as arguments.
 
@@ -9,7 +9,7 @@ def square_matrix_simple(matrix=[]):
         matrix passed to it as arguments.
 
         You are allowed to use regular loops, map, etc
-    '''
+    """
     new_lst = []
     if len(matrix) == 0:
         return new_lst
